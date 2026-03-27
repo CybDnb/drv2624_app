@@ -1,0 +1,42 @@
+# Frequency-based melody source for make_music_bin.py
+# Format:
+#   tone <freq_hz> <duration_ms> [amplitude]
+#   rest <duration_ms>
+#
+# Standard C major scale:
+# do re mi fa so la xi do
+# C4 D4 E4 F4 G4 A4 B4 C5
+
+tone 261.63 300 72
+rest 60
+tone 293.66 300 72
+rest 60
+tone 329.63 300 72
+rest 60
+tone 349.23 300 72
+rest 60
+tone 392.00 300 76
+rest 60
+tone 440.00 300 76
+rest 60
+tone 493.88 300 80
+rest 60
+tone 523.25 500 84
+rest 180
+
+tone 523.25 300 84
+rest 60
+tone 493.88 300 80
+rest 60
+tone 440.00 300 76
+rest 60
+tone 392.00 300 76
+rest 60
+tone 349.23 300 72
+rest 60
+tone 329.63 300 72
+rest 60
+tone 293.66 300 72
+rest 60
+tone 261.63 500 72
+rest 300
